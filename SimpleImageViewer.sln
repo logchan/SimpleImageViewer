@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleImageViewer", "SimpleImageViewer\SimpleImageViewer.csproj", "{9723681C-DE3F-4506-BC0F-D4E027B3B65F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{346F08E7-5E68-4521-BC38-AD04715E4CF5}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Tklc.Wpf", "..\Tklc\src\Tklc.Wpf\Tklc.Wpf.shproj", "{482A4515-69CB-4312-84B7-0566841272E3}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Tklc.Drawing", "..\Tklc\src\Tklc.Drawing\Tklc.Drawing.shproj", "{2892421A-FC94-404B-9EBF-E3E97253992C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Tklc.IO", "..\Tklc\src\Tklc.IO\Tklc.IO.shproj", "{FD89533C-3989-46AF-9F82-28231F1C289E}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Tklc\src\Tklc.Drawing\Tklc.Drawing.projitems*{2892421a-fc94-404b-9ebf-e3e97253992c}*SharedItemsImports = 13
+		..\Tklc\src\Tklc.Wpf\Tklc.Wpf.projitems*{482a4515-69cb-4312-84b7-0566841272e3}*SharedItemsImports = 13
+		..\Tklc\src\Tklc.Drawing\Tklc.Drawing.projitems*{9723681c-de3f-4506-bc0f-d4e027b3b65f}*SharedItemsImports = 4
+		..\Tklc\src\Tklc.IO\Tklc.IO.projitems*{9723681c-de3f-4506-bc0f-d4e027b3b65f}*SharedItemsImports = 4
+		..\Tklc\src\Tklc.Wpf\Tklc.Wpf.projitems*{9723681c-de3f-4506-bc0f-d4e027b3b65f}*SharedItemsImports = 4
+		..\Tklc\src\Tklc.IO\Tklc.IO.projitems*{fd89533c-3989-46af-9f82-28231f1c289e}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9723681C-DE3F-4506-BC0F-D4E027B3B65F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9723681C-DE3F-4506-BC0F-D4E027B3B65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9723681C-DE3F-4506-BC0F-D4E027B3B65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9723681C-DE3F-4506-BC0F-D4E027B3B65F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{482A4515-69CB-4312-84B7-0566841272E3} = {346F08E7-5E68-4521-BC38-AD04715E4CF5}
+		{2892421A-FC94-404B-9EBF-E3E97253992C} = {346F08E7-5E68-4521-BC38-AD04715E4CF5}
+		{FD89533C-3989-46AF-9F82-28231F1C289E} = {346F08E7-5E68-4521-BC38-AD04715E4CF5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96120197-DAA8-4896-9BFF-CE310699379A}
+	EndGlobalSection
+EndGlobal

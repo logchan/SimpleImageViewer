@@ -67,6 +67,9 @@
                     <ToggleButton IsChecked="{Binding ElementName=TheCanvas, Path=KeepTransform, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Focusable="False">
                         <TextBlock>KT</TextBlock>
                     </ToggleButton>
+                    <ToggleButton IsChecked="{Binding ElementName=TheCanvas, Path=DrawFrame, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Focusable="False">
+                        <TextBlock>FR</TextBlock>
+                    </ToggleButton>
                 </StackPanel>
             </StatusBarItem>
         </StatusBar>

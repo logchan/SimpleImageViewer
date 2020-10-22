@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media.Imaging;
@@ -28,6 +27,7 @@ namespace SimpleImageViewer.UI {
 
             App.Settings.LastPosition.Restore(this);
             TheCanvas.Chessboard = App.Settings.Chessboard;
+            TheCanvas.DrawFrame = App.Settings.DrawFrame;
             TheCanvas.Focus();
         }
 
@@ -87,6 +87,7 @@ namespace SimpleImageViewer.UI {
         private void TheWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e) {
             App.Settings.LastPosition.Update(this);
             App.Settings.Chessboard = TheCanvas.Chessboard;
+            App.Settings.DrawFrame = TheCanvas.DrawFrame;
             App.SaveSettings();
         }
 

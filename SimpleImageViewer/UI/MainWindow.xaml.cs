@@ -56,6 +56,7 @@ namespace SimpleImageViewer.UI {
                         var bm = new BitmapImage();
                         bm.BeginInit();
                         bm.UriSource = new Uri(file);
+                        bm.CacheOption = BitmapCacheOption.OnLoad;
                         bm.EndInit();
                         bm.Freeze();
                         return bm;
